@@ -1,6 +1,6 @@
 {
-  "name": "angular-rollbar",
-  "version": "0.1.1",
+  "name": "angular-rollbar-lte",
+  "version": "0.1.2",
   "description": "Angular 2+ Service for Rollbar error logging",
   "main": "lib/index.js",
   "typings": "lib/index",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NextFaze/angular-rollbar"
+    "url": "https://github.com/egreer/angular-rollbar"
   },
   "keywords": [
     "angular",
