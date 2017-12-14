@@ -6,7 +6,7 @@ This package provides an Angular 2+ service for logging to Rollbar.
 
 ## Installation
 
-    npm install angular-rollbar
+    npm install angular-rollbar-lte
 
 ### Dependencies
 
@@ -17,7 +17,7 @@ This module relies on the official `rollbar-browser` npm package. In addition, i
 ### Bootstrap the module
 
 ```ts
-import { RollbarModule, RollbarService } from 'angular-rollbar'
+import { RollbarModule, RollbarService } from 'angular-rollbar-lte'
 
 NgModule({
     imports: [
@@ -39,7 +39,7 @@ Let the Angular DI do all the magic for you.
 
 ```ts
 import { Component } from '@angular/core'
-import { RollbarService } from 'angular-rollbar';
+import { RollbarService } from 'angular-rollbar-lte';
 
 @Component(...)
 export class MyComponent {

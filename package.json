@@ -1,13 +1,9 @@
 {
-  "name": "angular-rollbar",
-  "version": "0.1.1",
+  "name": "angular-rollbar-lte",
+  "version": "0.1.2",
   "description": "Angular 2+ Service for Rollbar error logging",
   "main": "lib/index.js",
   "typings": "lib/index",
-  "files": [
-    "src",
-    "tsconfig.json"
-  ],
   "scripts": {
     "clean": "rm -rf lib",
     "doc": "./node_modules/.bin/typedoc --out doc --mode modules --excludeNotExported --excludeExternals src",
@@ -17,13 +13,12 @@
     "ngc": "node_modules/.bin/ngc",
     "build": "npm run ngc",
     "prebuild": "npm run clean",
-    "preinstall": "npm run build",
     "prepublish": "npm run build",
     "coveralls": "./node_modules/coveralls/bin/coveralls.js < coverage/coverage.lcov"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NextFaze/angular-rollbar"
+    "url": "https://github.com/egreer/angular-rollbar"
   },
   "keywords": [
     "angular",
